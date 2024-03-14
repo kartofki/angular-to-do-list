@@ -55,7 +55,6 @@ export class TodoComponent implements OnInit{
  // return this.todos.filter(item => item.urgency === '🔴' && !item.isDone).length >= 3;
 //}
 
-//Changing the To Do List name based on how many unfinished tasks there are
 
 get listTitle(): string {
   const totalUnfinishedTasks = this.todos.filter(item => !item.isDone).length;
