@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.list-group-item span{
+    cursor:pointer;
+}
+.completed{
+    text-decoration:line-through
+}
+.btn:hover i.fa-circle-plus {
+    color: green;
+}
+.fa-trash-can:hover {
+    color: red;
+}
+.custom-dropdown {
+    border: 1px solid #ccc;
+    width: 200px;
+    position: relative;
+  }
+  
+  .selected-value, .dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .options-container {
+    position: absolute;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  .urgency-indicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .custom-dropdown {
+    width: 5px; /* Adjust this value to control the width */
+    min-width: 5px; /* Ensures dropdown is not too narrow, adjust as needed */
+  }
+  
+  .input-group .form-select {
+    text-align: end; /* Aligns the text to the end, which is right for LTR languages */
+  }
+  
+  /* Aligning dropdown to the right */
+  .input-group > .custom-dropdown {
+    margin-left: auto;
+  }
+  .display-6.fw-bold {
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    font-size: 2.5rem; /* Adjust the size as needed */
+    color: #343a40; /* Dark grey color */
+    text-align: center; /* Center-align the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+   
+    -webkit-background-clip: text;
+    
+    margin-bottom: 20px; /* Spacing below the title */
+    
+  }
+  
+  @media (max-width: 768px) {
+    .display-6.fw-bold {
+      font-size: 2rem; /* Smaller size for smaller screens */
+    }
+  }
