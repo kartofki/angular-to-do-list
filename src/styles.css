@@ -48,33 +48,33 @@
     clip: rect(0, 0, 0, 0);
   }
   .custom-dropdown {
-    width: 5px; /* Adjust this value to control the width */
-    min-width: 5px; /* Ensures dropdown is not too narrow, adjust as needed */
+    width: 5px; 
+    min-width: 5px; 
   }
   
   .input-group .form-select {
-    text-align: end; /* Aligns the text to the end, which is right for LTR languages */
+    text-align: end; 
   }
   
-  /* Aligning dropdown to the right */
+
   .input-group > .custom-dropdown {
     margin-left: auto;
   }
   .display-6.fw-bold {
-    font-family: 'Roboto', sans-serif; /* Use a modern font */
-    font-size: 2.5rem; /* Adjust the size as needed */
-    color: #343a40; /* Dark grey color */
-    text-align: center; /* Center-align the text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2.5rem; 
+    color: #343a40; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
    
     -webkit-background-clip: text;
     
-    margin-bottom: 20px; /* Spacing below the title */
+    margin-bottom: 20px; 
     
   }
   
   @media (max-width: 768px) {
     .display-6.fw-bold {
-      font-size: 2rem; /* Smaller size for smaller screens */
+      font-size: 2rem; 
     }
   }
